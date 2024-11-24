@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+    justify-content: center;
+  }
+  
+  .tour-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .tour-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .tour-card h2 {
+    margin: 0.5rem 0;
+  }
+  
+  .tour-card p {
+    padding: 0 1rem;
+  }
+  
+  .tour-card button {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .tour-card button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Responsive Design for media */
+  @media (max-width: 768px) {
+    .gallery {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  /**
+   * Styled the application:
+   * - Added styles for the header and tour cards.
+   * - Ensured the design is responsive for different screen sizes and layouts.
+   */
+  
